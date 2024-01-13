@@ -1,0 +1,359 @@
+[2023-11-05 08:18:53,710: INFO: WElcome]
+[2023-11-05 08:19:01,974: INFO: WElcome]
+[2024-01-13 14:53:24,179: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 14:53:24,181: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 14:53:24,182: INFO: created directory at: artifacts]
+[2024-01-13 14:56:35,674: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 14:56:35,676: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 14:56:35,676: INFO: created directory at: artifacts]
+[2024-01-13 14:56:37,130: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 14:56:37,131: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 14:56:37,132: INFO: created directory at: artifacts]
+[2024-01-13 15:00:12,883: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:00:12,886: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:00:12,886: INFO: created directory at: artifacts]
+[2024-01-13 15:00:59,034: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:00:59,036: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:00:59,037: INFO: created directory at: artifacts]
+[2024-01-13 15:01:02,648: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:01:02,650: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:01:02,650: INFO: created directory at: artifacts]
+[2024-01-13 15:01:46,973: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:01:46,974: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:01:46,975: INFO: created directory at: artifacts]
+[2024-01-13 15:02:53,941: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:02:53,943: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:02:53,944: INFO: created directory at: artifacts]
+[2024-01-13 15:03:38,149: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:03:38,151: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:03:38,151: INFO: created directory at: artifacts]
+[2024-01-13 15:12:52,382: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:12:52,383: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:12:52,384: INFO: created directory at: artifacts]
+[2024-01-13 15:12:52,385: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:13:27,483: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:13:27,484: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:13:27,485: INFO: created directory at: artifacts]
+[2024-01-13 15:13:27,486: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:14:55,779: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:14:55,781: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:14:55,782: INFO: created directory at: artifacts]
+[2024-01-13 15:14:55,782: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:16:07,964: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:16:07,966: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:16:07,967: INFO: created directory at: artifacts]
+[2024-01-13 15:16:07,968: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:19:16,576: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:19:16,578: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:19:16,579: INFO: created directory at: artifacts]
+[2024-01-13 15:19:16,580: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:19:23,127: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1E8A:03DF:A7C530:CB4DA7:65A25C9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 09:49:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10230-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705139357.099330,VS0,VE3426
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ac397267d65f794c8c7b31ba1b0d557f360c5659
+Expires: Sat, 13 Jan 2024 09:54:20 GMT
+Source-Age: 3
+
+]
+[2024-01-13 15:27:35,724: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 15:27:35,731: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 15:27:35,733: INFO: created directory at: artifacts]
+[2024-01-13 15:27:35,735: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 15:27:41,806: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 6E74:715F:B6A74C:DAF915:65A25E8E
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 09:57:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705139856.297114,VS0,VE2361
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a71d8656099cd341f1375d25d26a3394b2fc1913
+Expires: Sat, 13 Jan 2024 10:02:38 GMT
+Source-Age: 2
+
+]
+[2024-01-13 17:27:02,593: INFO: >>>>>>stage Data Ingestion stage started <<<<<<<
+
+x=============x]
+[2024-01-13 17:30:04,073: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:30:04,073: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:30:04,074: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:30:04,074: INFO: created directory at: artifacts]
+[2024-01-13 17:30:04,074: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:30:31,660: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5C84:351A:BE446D:E2C7A4:65A27B3D
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 12:00:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705147205.830354,VS0,VE3065
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3eccd303780a88161c8ed6c7cbc4db74979fd7f8
+Expires: Sat, 13 Jan 2024 12:05:07 GMT
+Source-Age: 3
+
+]
+[2024-01-13 17:30:31,663: ERROR: ]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.extract_zip_file()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/data_ingestion.py", line 34, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1633, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1688, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py", line 205, in copyfileobj
+    buf = fsrc_read(length)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 922, in read
+    data = self._read1(n)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 990, in _read1
+    data += self._read2(n - len(data))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1025, in _read2
+    raise EOFError
+EOFError
+[2024-01-13 17:37:09,049: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:37:09,050: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:37:09,050: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:37:09,050: INFO: created directory at: artifacts]
+[2024-01-13 17:37:09,050: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:37:09,050: INFO: file already exists of size : ~0 KB]
+[2024-01-13 17:37:09,050: ERROR: File is not a zip file]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.extract_zip_file()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/data_ingestion.py", line 33, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1257, in __init__
+    self._RealGetContents()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1324, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-01-13 17:37:21,326: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:37:21,327: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:37:21,327: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:37:21,327: INFO: created directory at: artifacts]
+[2024-01-13 17:37:21,327: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:37:21,327: INFO: file already exists of size : ~0 KB]
+[2024-01-13 17:37:21,328: ERROR: File is not a zip file]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.extract_zip_file()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/data_ingestion.py", line 33, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1257, in __init__
+    self._RealGetContents()
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1324, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2024-01-13 17:37:45,932: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:37:45,932: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:37:45,933: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:37:45,933: INFO: created directory at: artifacts]
+[2024-01-13 17:37:45,933: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:38:21,216: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23627009
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "2e7409b328d118a1d37018be788babf8bf9640386387da766ac100e96efa3b93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F14A:0647:B8D107:DD99F3:65A27D12
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 12:08:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10251-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705147667.326923,VS0,VE19062
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 937e17027e5002df84fe13de3ed7485004537f91
+Expires: Sat, 13 Jan 2024 12:13:06 GMT
+Source-Age: 18
+
+]
+[2024-01-13 17:38:21,218: ERROR: ]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 9, in <module>
+    data_ingestion.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_01_data_ingestion.py", line 15, in main
+    data_ingestion.extract_zip_file()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/data_ingestion.py", line 34, in extract_zip_file
+    zip_ref.extractall(unzip_path)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1633, in extractall
+    self._extract_member(zipinfo, path, pwd)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1688, in _extract_member
+    shutil.copyfileobj(source, target)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/shutil.py", line 205, in copyfileobj
+    buf = fsrc_read(length)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 922, in read
+    data = self._read1(n)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 990, in _read1
+    data += self._read2(n - len(data))
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/zipfile.py", line 1025, in _read2
+    raise EOFError
+EOFError
+[2024-01-13 17:40:02,579: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:40:02,580: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:40:02,581: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:40:02,581: INFO: created directory at: artifacts]
+[2024-01-13 17:40:02,581: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:40:11,619: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 12:10:06 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10248-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705147805.765535,VS0,VE2111
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: b1bce0d0126263f638bd8462f4730af25c8fef5d
+Expires: Sat, 13 Jan 2024 12:15:06 GMT
+Source-Age: 2
+
+]
+[2024-01-13 17:40:11,686: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 17:41:01,025: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:41:01,026: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:41:01,026: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:41:01,026: INFO: created directory at: artifacts]
+[2024-01-13 17:41:01,026: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:41:04,639: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 12:11:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10236-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705147862.874438,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1810973f07ea1050cf10dd176ca0208313467c07
+Expires: Sat, 13 Jan 2024 12:16:01 GMT
+Source-Age: 57
+
+]
+[2024-01-13 17:41:04,698: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 17:41:45,736: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 17:41:45,737: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 17:41:45,737: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 17:41:45,737: INFO: created directory at: artifacts]
+[2024-01-13 17:41:45,737: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 17:41:53,703: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 12:11:46 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705147906.071680,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c7de5680a7dc08c17dbbbe8b693226c6b2a49cf8
+Expires: Sat, 13 Jan 2024 12:16:46 GMT
+Source-Age: 101
+
+]
+[2024-01-13 17:41:53,770: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
