@@ -357,3 +357,374 @@ Source-Age: 101
 [2024-01-13 17:41:53,770: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
 
 x=============x]
+[2024-01-13 18:15:18,808: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:15:18,810: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:15:18,811: INFO: created directory at: artifacts]
+[2024-01-13 18:15:18,812: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:16:52,398: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:16:52,400: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:16:52,401: INFO: created directory at: artifacts]
+[2024-01-13 18:16:52,402: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:20:14,037: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:20:14,039: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:20:14,040: INFO: created directory at: artifacts]
+[2024-01-13 18:20:14,040: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:22:20,440: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:22:20,442: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:22:20,442: INFO: created directory at: artifacts]
+[2024-01-13 18:22:20,443: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:36:14,305: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:36:14,306: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:36:14,306: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:36:14,307: INFO: created directory at: artifacts]
+[2024-01-13 18:36:14,307: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:36:21,664: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 13:06:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705151175.293038,VS0,VE575
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 262ba600c0ab527a3071e22631a2a728c3646b94
+Expires: Sat, 13 Jan 2024 13:11:15 GMT
+Source-Age: 0
+
+]
+[2024-01-13 18:36:21,731: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:36:21,731: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:36:21,732: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:36:21,732: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:36:21,732: INFO: created directory at: artifacts]
+[2024-01-13 18:36:21,732: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:36:21,732: ERROR: 'DataValidation' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 22, in <module>
+    data_validation.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-01-13 18:38:20,333: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:38:20,334: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:20,335: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:20,335: INFO: created directory at: artifacts]
+[2024-01-13 18:38:20,335: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:38:20,335: INFO: file already exists of size : ~7718 KB]
+[2024-01-13 18:38:20,378: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:20,378: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:38:20,379: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:20,379: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:20,379: INFO: created directory at: artifacts]
+[2024-01-13 18:38:20,379: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:38:20,380: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:31,971: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:38:31,972: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:31,972: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:31,972: INFO: created directory at: artifacts]
+[2024-01-13 18:38:31,972: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:38:36,993: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 13:08:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705151313.395718,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 35bcedfc8bc5a4d62e75f4071ba18bbe8c75cc8e
+Expires: Sat, 13 Jan 2024 13:13:33 GMT
+Source-Age: 138
+
+]
+[2024-01-13 18:38:37,059: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:37,059: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:38:37,060: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:37,060: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:37,060: INFO: created directory at: artifacts]
+[2024-01-13 18:38:37,061: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:38:37,061: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 10:36:06,957: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:36:06,958: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:36:06,959: INFO: created directory at: artifacts]
+[2024-01-14 10:37:05,582: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:37:05,584: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:37:05,585: INFO: created directory at: artifacts]
+[2024-01-14 10:39:16,232: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:39:16,234: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:39:16,235: INFO: created directory at: artifacts]
+[2024-01-14 10:44:24,428: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:44:24,430: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:44:24,431: INFO: created directory at: artifacts]
+[2024-01-14 10:45:51,997: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:45:51,999: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:45:52,000: INFO: created directory at: artifacts]
+[2024-01-14 10:48:38,225: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 10:48:38,228: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 10:48:38,228: INFO: created directory at: artifacts]
+[2024-01-14 10:48:38,229: INFO: created directory at: artifacts/data_transformation]
+[2024-01-14 12:56:17,296: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-14 12:56:17,297: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 12:56:17,298: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 12:56:17,298: INFO: created directory at: artifacts]
+[2024-01-14 12:56:17,298: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-14 12:56:19,307: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 49E0:3606:338017:406B45:65A378A8
+Accept-Ranges: bytes
+Date: Sun, 14 Jan 2024 07:26:18 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10231-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705217178.899814,VS0,VE288
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d5fa1b3028837f4a701f9a5c7d37a72290a69265
+Expires: Sun, 14 Jan 2024 07:31:18 GMT
+Source-Age: 0
+
+]
+[2024-01-14 12:56:19,363: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 12:56:19,363: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-14 12:56:19,364: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 12:56:19,364: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 12:56:19,364: INFO: created directory at: artifacts]
+[2024-01-14 12:56:19,364: INFO: created directory at: artifacts/data_validation]
+[2024-01-14 12:56:19,366: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 12:56:19,366: INFO: >>>>>> stage Data Transformation stage started <<<<<<<<]
+[2024-01-14 12:56:19,368: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 12:56:19,368: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 12:56:19,368: INFO: created directory at: artifacts]
+[2024-01-14 12:56:19,368: INFO: created directory at: artifacts/data_transformation]
+[2024-01-14 12:56:22,134: INFO: >>>>>>stage Data Transformation stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 16:05:09,553: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:05:09,555: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:05:09,555: INFO: created directory at: artifacts]
+[2024-01-14 16:05:09,556: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:10:11,368: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:10:11,370: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:10:11,370: INFO: created directory at: artifacts]
+[2024-01-14 16:10:11,371: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:10:55,170: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:10:55,177: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:10:55,185: INFO: created directory at: artifacts]
+[2024-01-14 16:10:55,189: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:26:21,168: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:26:21,171: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:26:21,172: INFO: created directory at: artifacts]
+[2024-01-14 16:26:21,172: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:30:14,154: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:30:14,158: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:30:14,159: INFO: created directory at: artifacts]
+[2024-01-14 16:30:14,160: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:37:04,520: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:37:04,522: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:37:04,523: INFO: created directory at: artifacts]
+[2024-01-14 16:37:04,524: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:39:59,153: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:39:59,155: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:39:59,155: INFO: created directory at: artifacts]
+[2024-01-14 16:39:59,156: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:46:47,758: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:46:47,770: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:46:47,772: INFO: created directory at: artifacts]
+[2024-01-14 16:46:47,775: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 16:52:20,049: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 16:52:20,056: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 16:52:20,057: INFO: created directory at: artifacts]
+[2024-01-14 16:52:20,058: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 17:08:40,497: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-14 17:08:40,499: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 17:08:40,500: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 17:08:40,500: INFO: created directory at: artifacts]
+[2024-01-14 17:08:40,500: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-14 17:08:44,426: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 1C52:67B9:E9820B:11D50D9:65A3C7BF
+Accept-Ranges: bytes
+Date: Sun, 14 Jan 2024 11:38:43 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10241-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705232321.242866,VS0,VE2480
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 48b4bfbf543c51417469f81cb35f9485cf44f92d
+Expires: Sun, 14 Jan 2024 11:43:43 GMT
+Source-Age: 2
+
+]
+[2024-01-14 17:08:44,493: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 17:08:44,493: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-14 17:08:44,495: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 17:08:44,496: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 17:08:44,496: INFO: created directory at: artifacts]
+[2024-01-14 17:08:44,497: INFO: created directory at: artifacts/data_validation]
+[2024-01-14 17:08:44,497: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 17:08:44,497: INFO: >>>>>> stage Data Transformation stage started <<<<<<<<]
+[2024-01-14 17:08:44,499: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 17:08:44,500: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 17:08:44,500: INFO: created directory at: artifacts]
+[2024-01-14 17:08:44,500: INFO: created directory at: artifacts/data_transformation]
+[2024-01-14 17:08:47,369: INFO: >>>>>>stage Data Transformation stage completed <<<<<<<
+
+x=============x]
+[2024-01-14 17:08:47,370: INFO: ******************]
+[2024-01-14 17:08:47,370: INFO: >>>>>> stage Model Trainer stage started <<<<<<<<]
+[2024-01-14 17:08:47,371: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-14 17:08:47,372: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-14 17:08:47,372: INFO: created directory at: artifacts]
+[2024-01-14 17:08:47,372: INFO: created directory at: artifacts/model_trainers]
+[2024-01-14 17:11:29,899: ERROR: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 47, in <module>
+    model_trainer.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/model_trainer.py", line 35, in train
+    trainer.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 2744, in training_step
+    self.accelerator.backward(loss)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/accelerate/accelerator.py", line 1964, in backward
+    loss.backward(**kwargs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/graph.py", line 690, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2024-01-19 19:05:57,081: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:05:57,085: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:05:57,085: INFO: created directory at: artifacts]
+[2024-01-19 19:05:57,087: INFO: created directory at: artifacts/model_evaluation]
+[2024-01-19 19:07:46,592: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:07:46,607: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:07:46,608: INFO: created directory at: artifacts]
+[2024-01-19 19:07:46,612: INFO: created directory at: artifacts/model_trainer]
+[2024-01-19 19:24:50,849: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-19 19:24:50,851: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:24:50,852: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:24:50,852: INFO: created directory at: artifacts]
+[2024-01-19 19:24:50,852: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-19 19:24:50,852: INFO: file already exists of size : ~7718 KB]
+[2024-01-19 19:24:50,919: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-19 19:24:50,919: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-19 19:24:50,920: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:24:50,921: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:24:50,921: INFO: created directory at: artifacts]
+[2024-01-19 19:24:50,921: INFO: created directory at: artifacts/data_validation]
+[2024-01-19 19:24:50,921: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-19 19:24:50,921: INFO: >>>>>> stage Data Transformation stage started <<<<<<<<]
+[2024-01-19 19:24:50,923: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:24:50,924: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:24:50,924: INFO: created directory at: artifacts]
+[2024-01-19 19:24:50,924: INFO: created directory at: artifacts/data_transformation]
+[2024-01-19 19:24:51,957: INFO: >>>>>>stage Data Transformation stage completed <<<<<<<
+
+x=============x]
+[2024-01-19 19:24:51,957: INFO: ******************]
+[2024-01-19 19:24:51,957: INFO: >>>>>> stage Model Trainer stage started <<<<<<<<]
+[2024-01-19 19:24:51,959: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-19 19:24:51,960: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-19 19:24:51,960: INFO: created directory at: artifacts]
+[2024-01-19 19:24:51,960: INFO: created directory at: artifacts/model_trainer]
+[2024-01-19 19:27:46,946: ERROR: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 48, in <module>
+    model_trainer.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/model_trainer.py", line 35, in train
+    trainer.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 2744, in training_step
+    self.accelerator.backward(loss)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/accelerate/accelerator.py", line 1964, in backward
+    loss.backward(**kwargs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/graph.py", line 690, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
