@@ -357,3 +357,126 @@ Source-Age: 101
 [2024-01-13 17:41:53,770: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
 
 x=============x]
+[2024-01-13 18:15:18,808: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:15:18,810: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:15:18,811: INFO: created directory at: artifacts]
+[2024-01-13 18:15:18,812: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:16:52,398: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:16:52,400: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:16:52,401: INFO: created directory at: artifacts]
+[2024-01-13 18:16:52,402: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:20:14,037: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:20:14,039: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:20:14,040: INFO: created directory at: artifacts]
+[2024-01-13 18:20:14,040: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:22:20,440: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:22:20,442: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:22:20,442: INFO: created directory at: artifacts]
+[2024-01-13 18:22:20,443: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:36:14,305: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:36:14,306: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:36:14,306: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:36:14,307: INFO: created directory at: artifacts]
+[2024-01-13 18:36:14,307: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:36:21,664: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 13:06:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705151175.293038,VS0,VE575
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 262ba600c0ab527a3071e22631a2a728c3646b94
+Expires: Sat, 13 Jan 2024 13:11:15 GMT
+Source-Age: 0
+
+]
+[2024-01-13 18:36:21,731: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:36:21,731: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:36:21,732: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:36:21,732: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:36:21,732: INFO: created directory at: artifacts]
+[2024-01-13 18:36:21,732: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:36:21,732: ERROR: 'DataValidation' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 22, in <module>
+    data_validation.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_02_data_validation.py", line 14, in main
+    data_validation.download_file()
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-01-13 18:38:20,333: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:38:20,334: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:20,335: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:20,335: INFO: created directory at: artifacts]
+[2024-01-13 18:38:20,335: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:38:20,335: INFO: file already exists of size : ~7718 KB]
+[2024-01-13 18:38:20,378: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:20,378: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:38:20,379: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:20,379: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:20,379: INFO: created directory at: artifacts]
+[2024-01-13 18:38:20,379: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:38:20,380: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:31,971: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-13 18:38:31,972: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:31,972: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:31,972: INFO: created directory at: artifacts]
+[2024-01-13 18:38:31,972: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-13 18:38:36,993: INFO: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: BDA2:7291:A6CCEA:CB502F:65A27D9C
+Accept-Ranges: bytes
+Date: Sat, 13 Jan 2024 13:08:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1705151313.395718,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 35bcedfc8bc5a4d62e75f4071ba18bbe8c75cc8e
+Expires: Sat, 13 Jan 2024 13:13:33 GMT
+Source-Age: 138
+
+]
+[2024-01-13 18:38:37,059: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-13 18:38:37,059: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-13 18:38:37,060: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-13 18:38:37,060: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-13 18:38:37,060: INFO: created directory at: artifacts]
+[2024-01-13 18:38:37,061: INFO: created directory at: artifacts/data_validation]
+[2024-01-13 18:38:37,061: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
