@@ -728,3 +728,57 @@ Traceback (most recent call last):
   File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/graph.py", line 690, in _engine_run_backward
     return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
 RuntimeError: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
+[2024-01-20 05:28:27,029: INFO: >>>>>> stage Data Ingestion stage started <<<<<<<<]
+[2024-01-20 05:28:27,032: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-20 05:28:27,033: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-20 05:28:27,033: INFO: created directory at: artifacts]
+[2024-01-20 05:28:27,033: INFO: created directory at: artifacts/data_ingestion]
+[2024-01-20 05:28:27,033: INFO: file already exists of size : ~7718 KB]
+[2024-01-20 05:28:27,090: INFO: >>>>>>stage Data Ingestion stage completed <<<<<<<
+
+x=============x]
+[2024-01-20 05:28:27,090: INFO: >>>>>> stage Data Validation stage started <<<<<<<<]
+[2024-01-20 05:28:27,092: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-20 05:28:27,092: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-20 05:28:27,092: INFO: created directory at: artifacts]
+[2024-01-20 05:28:27,093: INFO: created directory at: artifacts/data_validation]
+[2024-01-20 05:28:27,093: INFO: >>>>>>stage Data Validation stage completed <<<<<<<
+
+x=============x]
+[2024-01-20 05:28:27,093: INFO: >>>>>> stage Data Transformation stage started <<<<<<<<]
+[2024-01-20 05:28:27,095: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-20 05:28:27,096: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-20 05:28:27,096: INFO: created directory at: artifacts]
+[2024-01-20 05:28:27,096: INFO: created directory at: artifacts/data_transformation]
+[2024-01-20 05:28:28,259: INFO: >>>>>>stage Data Transformation stage completed <<<<<<<
+
+x=============x]
+[2024-01-20 05:28:28,260: INFO: ******************]
+[2024-01-20 05:28:28,260: INFO: >>>>>> stage Model Trainer stage started <<<<<<<<]
+[2024-01-20 05:28:28,261: INFO: yaml file: config/config.yaml loaded successfully]
+[2024-01-20 05:28:28,262: INFO: yaml file: params.yaml loaded successfully]
+[2024-01-20 05:28:28,262: INFO: created directory at: artifacts]
+[2024-01-20 05:28:28,262: INFO: created directory at: artifacts/model_trainer]
+[2024-01-20 05:31:36,784: ERROR: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).]
+Traceback (most recent call last):
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/main.py", line 48, in <module>
+    model_trainer.main()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/src/textSummarizer/components/model_trainer.py", line 35, in train
+    trainer.train()
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1537, in train
+    return inner_training_loop(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 1854, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/transformers/trainer.py", line 2744, in training_step
+    self.accelerator.backward(loss)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/accelerate/accelerator.py", line 1964, in backward
+    loss.backward(**kwargs)
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/_tensor.py", line 522, in backward
+    torch.autograd.backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/Users/venkyroyal/nandu_practise/TextSummarization/textS/lib/python3.9/site-packages/torch/autograd/graph.py", line 690, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: MPS backend out of memory (MPS allocated: 6.20 GB, other allocations: 2.57 GB, max allowed: 9.07 GB). Tried to allocate 375.40 MB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).
